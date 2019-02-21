@@ -5,7 +5,7 @@ This Java to C++ translator fully works for test inputs 000 to 050.
 The given task to translate Java programs to C++ was divided into 5 phases. The translator
 currently supports translation of header files and implementation files for all 51 inputs
 (000 to 050) given in src/test/java/inputs/. This means that the translator support dynamic
-dispath, method overriding, method overloading, all runtime checks including those for arrays,
+dispatch, method overriding, method overloading, all runtime checks including those for arrays,
 Java casts, and multidimensional arrays. Overall, this is a robust translator capable of
 translating a variety of test inputs successfully.
 
@@ -18,7 +18,7 @@ our current translator.
 You may run each phase separately or simply run the entire translator. The commands follow
 bellow.
 
-Before running, initiate a SBT shell, compile and run Boot.java
+Before running, initiate a SBT shell, compile and run Boot.java.
 
 ### To run phase x on SBT, type:
 
